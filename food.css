@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height:100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg,white 65%,red -55%);
+  transition: 0.5s;
+}
+header{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px 25px;
+  display: flex;justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  position: relative;
+  max-width: 80px;
+
+}
+
+header ul{
+  position: relative;
+  display: flex;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.textBox{
+  position: relative;
+  max-width: 600px;
+  
+}
+.textBox h2{
+  color: black;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.textBox p{
+   font-size: 30px;
+}
+.textBox a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: red;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ .bread-3{
+  margin-right: -100px;
+  display: flex;
+  width: 64%;
+  height: auto;
+  align-items: center;
+  /*border-radius:59% 41% 39% 61%/ 25% 63% 37% 75%;*/
+  border-radius: 75%;
+  
+}
+section-1{
+  height: 100px;
+  width: 50px;
+  border-bottom: red ;
+  border-top: #fff;
+}
+
+section-3{
+ 
+  position: relative;
+  width: 100%;
+  min-height:100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg,red 35%,white 30%);
+  transition: 0.5s;
+}
+
+.contact{
+ font-size: 30px;
+ margin-top: 10px;
+ align-items: flex-end;
+ margin-bottom: 90px;
+ margin-right: 0px
+}
+
+
+.product{
+  margin-bottom: 0px;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  background: whitesmoke;
+}
+.product h2{
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-family:sans-serif;
+}
+
+.product p{
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+.block{
+  float: left;
+  width: 30.3%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20%;
+  border: 2px inherit white;
+  background-color: white;
+  margin: 15px;
+  margin-top: -90px;
+  height: 300px;
+}
+
+.block .img{
+  width: 30%;
+  margin-top: 70px;
+
+}
+
+.split{
+ height: 100vh;
+ width: 50%;
+ position: fixed;
+ 
+}
+
+/* Still going to solve this
+.spilt-top{
+  height: 50vh;
+  top: 0;
+  background-color:red;
+  margin-top: 100px;
+}
+*/
+.spilt-bottom{
+  height: 30vh;
+  bottom: 0;
+  background-color:whitesmoke;
+}
+
+.spilt-bottom-1{
+  height: 50vh;
+  bottom: 0;
+  background-color: white;
+}
+.spilt-top-1{
+  height: 30vh;
+  top: 0;
+  background-color:red ;
+}
+
+.client h2{
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-family:sans-serif;
+  background-color: red;
+  margin-top: -30px;
+}
+
+
+.block-1{
+  position: relative;
+  float: left;
+  width: 30.3%;
+  text-align: center;
+  margin: 15px;
+  margin-top: 50px;
+  
+}
+
+.block-1 .img{
+ border-radius: 50rem;
+ width: 40%;
+ position: inherit;
+}
+.block-1 h1{
+  margin-top: 30px;
+}
+.block-1 p{
+  color: black;
+  align-items: center;
+}
+.bread-egg{
+  width: 45%;
+  margin-left: 90px;
+}
+.Contact{
+  margin-bottom:-40px;
+}
+.Contact .h2{
+ /* margin-bottom: -40px;*/
+}
+.About{
+
+  background: whitesmoke;
+  margin-left: 7%;
+}
+.text h1{
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 14px;
+  font-size: 63px;
+  font-family: sans-serif;
+}
+.text p{
+display: block;
+margin: 1em 1em;
+}
+.text .btn{
+
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 90px;
+  padding: 8px 20px;
+  background: red;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase
+}
+ .chicken-2{
+   margin-top: -300px;
+  margin-left: 570px;
+  display: flex;
+  width: 44%;
+  height: auto;
+  height: 23em;
+  border-radius:30% 70% 31% 69%/ 56% 45% 55% 44%;
+
+}
